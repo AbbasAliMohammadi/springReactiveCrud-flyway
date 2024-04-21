@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: reactiveCrud
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/reactivecrud
+    username: postgres
+    password: 786@admin
+  flyway:
+    url: jdbc:postgresql://localhost:5432/reactivecrud
+    user: postgres
+    password: 786@admin
+  devtools:
+    restart:
+      enabled: true 
+    livereload:
+      enabled: true
